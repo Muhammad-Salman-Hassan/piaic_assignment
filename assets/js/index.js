@@ -1,3 +1,2 @@
 
 
-$('.your-class').slick();
