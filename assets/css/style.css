@@ -15,7 +15,7 @@ body{
 .slider {
     width: 100%;
     height: 70vh;
-    background: url("/assets/images/bg.png");
+    /* background: url("/assets/images/bg.png"); */
     background-color: #8DC63F;
     color: white;
     
@@ -82,8 +82,25 @@ body{
   margin-left: 50px;
 }
 .img_wrapper_about{
-  background: url("/assets/images/cuts.png");
+  background: url(/assets/images/cuts.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom top;
   background-size: 100% 100%;
+  background-color: #e6e6e6;
+}
+.card::before{
+  font-family: "Font Awesome 5 Free";
+   content: "\f005"; 
+   color: red;
+   font-size: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 31%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFBD1A; 
 }
